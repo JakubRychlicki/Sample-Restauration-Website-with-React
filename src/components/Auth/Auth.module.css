@@ -1,0 +1,57 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+}
+
+.TitleLogin {
+  font-family: "Roboto";
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.FormBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ButtonSubmit {
+  margin: 10px 0;
+  background-color: brown;
+  height: 35px;
+  width: 200px;
+  border-radius: 10px;
+  line-height: 35px;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.RegistrationBox {
+  padding: 15px 0;
+  align-self: center;
+  font-family: "Roboto";
+}
+
+.error {
+  text-align: center;
+  color: brown;
+}
+
+.buttonClose {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  border: none;
+  overflow: hidden;
+  background-color: white;
+}
+
+.close {
+  color: brown;
+  font-size: 24px;
+}

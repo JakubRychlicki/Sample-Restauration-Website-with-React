@@ -1,0 +1,82 @@
+.Container {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  flex: 7;
+  margin: 40px 30px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+}
+
+.deliveryTitle {
+  font-family: "Roboto";
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.deliveryInfo {
+  padding-top: 10px;
+  padding-left: 15px;
+  color: brown;
+  font-size: 18px;
+}
+
+.deliveryText {
+  color: black;
+  padding-left: 10px;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: "Roboto";
+  padding: 20px;
+}
+
+.formPersonalBox {
+  width: 500px;
+  margin-bottom: 0;
+}
+
+.formAddressBox {
+  width: 300px;
+}
+
+.titlePersonal,
+.titleAddress {
+  padding-left: 20px;
+}
+
+.orderButton {
+  margin: 0 auto;
+  width: 200px;
+  padding: 15px 20px;
+  background-color: brown;
+  font-family: "Roboto";
+  font-size: 20px;
+}
+
+@media (max-width: 1280px) {
+  .Container {
+    order: 3;
+    box-shadow: none;
+  }
+  .formBox {
+    flex-direction: column;
+  }
+  .formPersonalBox {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .formPersonalBox {
+    width: 300px;
+  }
+  .deliveryTitle {
+    font-size: 12px;
+    text-align: center;
+  }
+}

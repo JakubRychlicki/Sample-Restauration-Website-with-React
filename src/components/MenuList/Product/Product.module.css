@@ -1,0 +1,88 @@
+.Container {
+  display: flex;
+  padding: 10px 0px 10px 15px;
+  margin-bottom: 5px;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+}
+
+.Container > * {
+  font-family: "Roboto";
+}
+
+.boxDesc {
+  width: 60%;
+}
+
+.pizzaText {
+  font-size: 20px;
+}
+
+.descriptionText {
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 4px;
+}
+
+.box {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.priceBox {
+  font-family: "Roboto";
+  margin-right: 15px;
+}
+
+.buttonPlus {
+  display: flex;
+  justify-content: center;
+  height: 32px;
+  width: 32px;
+  background-color: #2bad4e;
+  border: none;
+  overflow: hidden;
+}
+
+.plus {
+  color: black;
+  font-size: 24px;
+  color: white;
+}
+
+.buttonPlus:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 760px) {
+  .pizzaText {
+    font-size: 18px;
+  }
+  .descriptionText {
+    font-size: 12px;
+  }
+  .box {
+    padding-right: 10px;
+  }
+  .buttonPlus {
+    height: 24px;
+    width: 24px;
+  }
+
+  .plus {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Container {
+    width: 90vw;
+  }
+  .boxDesc {
+    width: 60%;
+  }
+}

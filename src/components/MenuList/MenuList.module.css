@@ -1,0 +1,31 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.Title {
+  padding: 15px;
+  font-size: 25px;
+  color: brown;
+  text-align: left;
+}
+
+@media (max-width: 1080px) {
+  .Container {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 760px) {
+  .Container {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .Container {
+    width: 90vw;
+  }
+}

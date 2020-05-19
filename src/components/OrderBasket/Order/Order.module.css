@@ -1,0 +1,49 @@
+.OrderBox {
+  display: flex;
+  padding: 10px 5px;
+}
+
+.ControlsBox {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: brown;
+  font-size: 18px;
+  padding: 10px 0;
+  border-right: 1px solid gray;
+}
+
+.Space {
+  margin-bottom: 10px;
+}
+
+.Quantity {
+  flex: 1;
+  padding: 0 10px;
+  align-self: center;
+  font-size: 18px;
+}
+
+.ProductBox {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductName {
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.ProductDesc {
+  color: #9e9d99;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.priceBox {
+  flex: 3;
+  align-self: center;
+  font-size: 14px;
+}

@@ -1,0 +1,17 @@
+.Container {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.Main {
+  display: flex;
+  flex-direction: row;
+  align-items: unset;
+}
+
+@media (max-width: 1280px) {
+  .Main {
+    flex-direction: column;
+    align-items: center;
+  }
+}

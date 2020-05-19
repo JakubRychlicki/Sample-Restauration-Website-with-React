@@ -1,0 +1,82 @@
+.Container {
+  order: 2;
+  min-width: 25vw;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CartBox {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px;
+  background: white;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.17);
+  font-family: "Roboto";
+}
+
+.CartTitle {
+  font-size: 18px;
+  padding-left: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+}
+
+.CartOrderBox {
+  margin-bottom: 10px;
+}
+
+.CartInfoMessage {
+  padding: 32px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.CartOrderpriceBox {
+  border-top: 1px solid black;
+  padding-top: 10px;
+  display: flex;
+}
+
+.CartOrderpriceName {
+  padding-left: 10px;
+  flex: 4;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.CartOrderpriceValue {
+  flex: 2;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.OrderWarning {
+  font-size: 13px;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.ButtonToOrderBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+.Button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: brown;
+}
+
+@media (max-width: 1200px) {
+  .CartBox {
+    width: 260px;
+  }
+}

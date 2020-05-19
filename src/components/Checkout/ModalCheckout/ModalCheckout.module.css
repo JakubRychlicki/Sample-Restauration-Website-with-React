@@ -1,0 +1,32 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.Title {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: brown;
+  text-align: center;
+}
+
+.PizzaImg {
+  margin: 10px;
+  position: relative;
+  width: 150px;
+  height: 80px;
+}
+
+.PizzaImg > img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.subTitle {
+  font-family: "Roboto";
+  font-size: 15px;
+  color: rgb(207, 11, 11);
+}

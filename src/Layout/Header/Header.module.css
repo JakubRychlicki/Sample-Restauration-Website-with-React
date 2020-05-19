@@ -1,0 +1,76 @@
+.Container {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  background-color: brown;
+}
+
+.Box {
+  display: flex;
+  margin-left: 20%;
+}
+
+.BoxHeading {
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+}
+
+.Heading {
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 10vh;
+  color: white;
+  letter-spacing: 1.2px;
+}
+
+.Logo {
+  display: block;
+  margin: 10px;
+  position: relative;
+  width: 100px;
+}
+
+.Logo > img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.LoginBox {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 10vh;
+  width: 15vw;
+  justify-content: center;
+}
+
+.LoginBox > * {
+  height: 100%;
+}
+
+.ButtonName {
+  font-size: 16px;
+  font-family: Arial;
+}
+
+@media (max-width: 760px) {
+  .Logo {
+    display: none;
+  }
+  .Box {
+    margin-left: 0;
+  }
+  .BoxHeading {
+    width: 60vw;
+  }
+  .Heading {
+    font-size: 15px;
+  }
+  .LoginBox {
+    width: 30vw;
+  }
+}
