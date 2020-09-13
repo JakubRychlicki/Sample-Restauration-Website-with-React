@@ -39,12 +39,19 @@
 
 .buttonPlus {
   display: flex;
+  align-items: center;
   justify-content: center;
   height: 32px;
   width: 32px;
   background-color: #2bad4e;
   border: none;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.buttonPlus:focus,
+.buttonPlus:active {
+  outline: none;
 }
 
 .plus {
