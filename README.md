@@ -2,6 +2,10 @@
 
 Sample pizzeria website.
 
+---
+
+![pizzaportal](https://user-images.githubusercontent.com/35461058/93022838-807cbe80-f5eb-11ea-9a33-e3909cf85797.gif)
+
 ## Installation
 
 ### 1. npm install
